@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    display: flex;
+    background-color: #3B5998;
+}
+.fb{
+    width: 60%;
+/*    padding: 15px;*/
+   font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    padding-left: 170px;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.form{
+    width: 40%;
+}
+input[class="email"]{
+    width: 146px;
+    height: 23px;
+}
+.vxod{
+    display: flex;
+    padding-top: 20px;
+}
+
+.email1{ 
+    margin: 0 10px;
+    
+    
+}
+.column{
+    color: white;
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+.login{
+    background-color: #4267B2;
+   
+    border: 0.5px solid #4267B2;
+    color: white;
+    margin:0 5px 4px 5px;
+}
+.column a:link{
+    color: rgb(255, 255, 255);opacity:0.5;
+    text-decoration: none;
+}
+.column a:hover{
+    color: rgb(255, 255, 255);opacity:0.5;
+    text-decoration: underline;
+}
+#content{
+    display: flex;
+    background-color: #E9EBEE;
+/*    height: 500px;*/
+}
+#left{
+    width: 60%;
+}
+.left{
+/*    text-align: center;*/
+    padding-left: 170px;
+    margin-top: 50px;
+}
+.connect{
+    text-align: left;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 85%;
+    font-size: 13px;
+    
+}
+.connect h1{
+    color: #333333;
+
+}
+.nkar{
+    display: flex;
+    align-content: space-around;
+    margin-top: 30px;
+}
+.start{
+    padding-top: 15px;
+    margin-left: 20px;
+    text-align: right;
+   font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #777777;
+    
+}
+#right{
+    padding: 30px 60px 30px 30px;
+    width: 40%;
+    margin-right: 64px;
+}
+.font{
+    font-family: Helvetica, Arial, sans-serif;
+}
+.font1{
+    font-size: 20px;
+}
+.birthday{
+    display: flex;
+    width: 65%
+}
+select[class="birthday1"]{
+    padding: -8px 8px;
+}
+.birthday2{
+    margin-top: 3px;
+    margin-left: 4px;
+    font-size: 12px;
+    font-family: serif;
+}
+.birthday a:link{
+    text-decoration: none;
+    color: #3C5899;
+}
+.birthday a:hover{
+    text-decoration: underline;
+    color: #3C5899;
+}
+input[class="pad"]{
+    padding: 10px;
+    border: 0.6px solid #BDC7D8;
+    border-radius: 4px;
+    font-size: 17px;
+}
+.gender{
+    padding-top: 12px;
+}
+.marg{
+    margin-top: 18px;
+}
+input[placeholder="Mobile number or email"]{
+    width: 95%;
+}
+input[placeholder="New password"]{
+    width: 95%;
+}
+.size{
+    font-size: 25px;
+}
+input[type="radio"]{
+    margin: 0 10px;
+}
+h3 a:link{
+    color: white;
+    text-decoration: none;
+}
+h3 a:visited{
+    background-color: #5E9000;
+}
+.unknown{
+    width: 380px;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 12px;
+    color: #777777;
+}
+.unknown a:link{
+   text-decoration: none;
+    color: #3C5899; 
+}
+.unknown a:hover{
+   text-decoration: underline;
+    color: #3C5899; 
+}
+button[type="submit"]{
+    margin-top: 20px;
+    background-color: #5E994B;
+    width: 200px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 7px 14px;
+    border: 0.8px solid black;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-bottom: 25px;
+    font-size: 20px;
+    
+}
+
+.marg1{
+    border-top: 0.6px solid #DDDFE2;
+    margin-top: 25px;
+    padding-top: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #666666;
+}
+.marg1 a:link{
+   text-decoration: none;
+    color: #3C5899; 
+}
+.marg1 a:hover{
+   text-decoration: underline;
+    color: #3C5899; 
+}
+.name{
+    display: flex;
+}
+.pad{
+    width: 175px;
+}
+[name="surname"]{
+    margin-left: 10px;
+}
+i{
+    opacity: 0;
+}
+.error1{
+    position: relative;
+
+}
+.error{
+    position: absolute;
+    color: #B94A48;
+    z-index: 5;
+    font-size: 22px;
+right: 7px;
+    top: 8px;
+
+
+
+}
+.error2{
+    position: absolute;
+    color: #B94A48;
+    z-index: 5;
+    font-size: 22px;
+    right: 27px;
+    top: 8px;
+
+
+}
